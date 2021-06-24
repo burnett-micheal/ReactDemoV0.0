@@ -1,0 +1,7 @@
+Camel Cased = camelCased
+Pascal Cased = PascalCased
+
+JSX Files Are Pascal Cased
+JS/CSS/JSON Files Are Camel Cased
+Local Variables Are Camel Cased
+Props Are Camel Cased

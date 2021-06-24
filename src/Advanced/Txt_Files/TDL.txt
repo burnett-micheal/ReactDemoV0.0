@@ -1,0 +1,32 @@
+Dynamic Elements
+arrayOfStrings.map((string, index) => {return <p key=index> {string} </p>})
+This will make an array of paragraphs with all the strings contained in arrayOfStrings. You can also use other components you built and pass the key and value as props.
+Each iterated element MUST have a unique key
+
+Events
+onClick = {>function/function reference here<}
+If you add this to the attributes of a component it will run the function upon being clicked
+onBlur = {>function/function reference here<}
+If you add this to the attributes of an input component it will run the function upon being unfocused --- (Clicked Off Of)
+onKeyPress = {>function/function reference here<}
+Full List Of Events Here - https://reactjs.org/docs/events.html
+
+React Lifecycle Component For Class And Functional --- Currently Lifecycle Is In Development
+This Is A Fairly In-Depth Topic, Thus I'm Going To Go Over Basics And Then Point You To External Resources
+These Lifecycle Methods Work In Class Components --- For A Functional Component Equivalent Use The 'useEffect' Hook
+componentDidMount() --- Called The First Time The Component Is Rendered
+componentDidUpdate() --- Called Every Time The Component Is Rendered Or Re-Rendered
+https://www.w3schools.com/react/react_lifecycle.asp
+
+PropTypes
+https://reactjs.org/docs/typechecking-with-proptypes.html
+
+Hooks
+
+Enums
+Object.Freeze With Objects Makes It So You Cant Add Or Modify Properties Outside Of Where The Object Is Declared
+Enums are useful for any value that needs to be associated with a different value, and allows for a quick reference project wide. 
+https://workflowy.com/s/enums/fQrmpo79dJGUlYad
+
+Libraries
+https://workflowy.com/s/libraries/ATdcpnDgPCUrWCEI

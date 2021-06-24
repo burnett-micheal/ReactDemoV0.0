@@ -1,0 +1,2 @@
+Ctrl+F To Search Thru Code
+Ctrl+H To Search And Replace Code
